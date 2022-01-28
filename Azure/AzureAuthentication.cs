@@ -1,5 +1,4 @@
-﻿
-namespace Azure
+﻿namespace Azure
 {
     /// <summary>
     /// Represent the azure authentication information
@@ -22,17 +21,17 @@ namespace Azure
         /// <summary>
         /// Get or set the account name
         /// </summary>
-        public string AccountName { get; set; }
+        public string AccountName { get; private set; }
 
         /// <summary>
         /// Get or set the container name
         /// </summary>
-        public string ContainerName { get; set; }
+        public string ContainerName { get; private set; }
 
         /// <summary>
         /// Get or set the key value
         /// </summary>
-        public string KeyValue { get; set; }
+        public string KeyValue { get; private set; }
 
     }
 }
