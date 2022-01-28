@@ -14,9 +14,9 @@ namespace Azure
         /// <param name="keyValue"></param>
         public AzureAuthentication(string accountName, string containerName, string keyValue)
         {
-            this.AccountName = accountName;
-            this.ContainerName = containerName;
-            this.KeyValue = keyValue;
+            AccountName = accountName;
+            ContainerName = containerName;
+            KeyValue = keyValue;
         }
       
         /// <summary>

@@ -1,20 +1,7 @@
 ﻿using Azure;
 using Microsoft.Win32;
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace AzureTest
 {
@@ -27,7 +14,7 @@ namespace AzureTest
         {
             InitializeComponent();
 
-          
+
         }
 
         private void btnUpload_Click(object sender, RoutedEventArgs e)
@@ -43,17 +30,17 @@ namespace AzureTest
 
             using (var fileStream = File.OpenRead(txtPath.Text))
             {
-                storage.Upload(fileStream,"filetest.txt");
+                storage.Upload(fileStream);
             }
 
-            ///Exemple 2
-            AzureStorage storage1 = new AzureStorage("","","");
-            using (var fileStream = File.OpenRead(txtPath.Text))
-            {
-                string fileName = storage1.Upload(fileStream);
-            }
-          
-       
+            /////Exemple 2
+            //AzureStorage storage1 = new AzureStorage("","","");
+            //using (var fileStream = File.OpenRead(txtPath.Text))
+            //{
+            //    string fileName = storage1.Upload(fileStream);
+            //}
+
+
         }
 
 
