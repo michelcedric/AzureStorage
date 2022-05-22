@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure", "Azure\Azure.csproj", "{06AA74F2-2A71-4299-883C-E2979B8F9191}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureTest", "AzureTest\AzureTest.csproj", "{4546712B-2712-409B-9A94-BB8C3EEA900A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Standard", "Standard", "{351B53E2-A6CD-4A23-BBFA-0D474B06D48E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStorageBlobs", "AzureStorageBlobs\AzureStorageBlobs.csproj", "{CDF030FC-919A-42C7-88EB-4BB387790D55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +25,18 @@ Global
 		{4546712B-2712-409B-9A94-BB8C3EEA900A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4546712B-2712-409B-9A94-BB8C3EEA900A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4546712B-2712-409B-9A94-BB8C3EEA900A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDF030FC-919A-42C7-88EB-4BB387790D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF030FC-919A-42C7-88EB-4BB387790D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF030FC-919A-42C7-88EB-4BB387790D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF030FC-919A-42C7-88EB-4BB387790D55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDF030FC-919A-42C7-88EB-4BB387790D55} = {351B53E2-A6CD-4A23-BBFA-0D474B06D48E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A88827E-BF83-45D3-828F-7FF0E19888A3}
 	EndGlobalSection
 EndGlobal

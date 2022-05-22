@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>AzureStorage</id>
+    <version>2.0.0</version>
+    <title>Azure Storage</title>
+    <authors>Cédric Michel</authors>
+    <owners>Cédric Michel</owners>
+	  <readme>readme.md</readme>
+	  <projectUrl>https://github.com/michelcedric/AzureStorage</projectUrl>
+	  <repository type="git" url="https://github.com/michelcedric/AzureStorage" />
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple package to use azure storage</description>
+    <summary>Very simple usage of azure storage</summary>
+    <tags>Azure-Storage AzureStorage</tags>    
+  </metadata>
+   <files>   
+      <file src="readme.md" target="" />    
+   </files>
+</package>
